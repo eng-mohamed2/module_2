@@ -1,7 +1,9 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
 }
 h1{
     margin: 15px;
@@ -11,31 +13,43 @@ h1{
     text-transform: capitalize;
     color: indianred;
 }
-span{
-    border: 2px solid white;
-    padding: 2px;
-    float: right;
-    text-transform: capitalize;
-    width: 100px;
-    color: teal;
-    background-color: wheat;
+.main .paras{
+    float: left;
+    border: 3px solid black;
+    background-color: rgb(76, 88, 85);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 10px;
 }
-p{
-    background-color: #800000;
-    border: 1px solid rgb(19, 2, 2);
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    color: white;
+.main .para-2{
+    margin-top: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.main  .para-1{
+    float: right;
+    margin-top: -13px;
+    margin-right: -13px;
+    background-color: teal;
+    width: 180px;
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid black;
 }
 .row{
     width: 100%;
 }
 @media (min-width: 768px) and (max-width: 991px){
    
-
+.main .paras{
+    margin: 10px;
+}
+.main .p3{
+    width: 100%;
+}
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,
     .col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
         float: left;  
@@ -76,21 +90,13 @@ p{
     .col-md-12{
         width: 100%;
     }
-
-    .p3{
-        width: 105.5%;
-        padding: 0;
-        border: 0;
-        margin-top: 10px;
-        margin-left: -24.8px;
-    }
   }
 
 
   @media (max-width: 767px){
-      p{
-          margin-top: 10px;
-      }
+     .main .paras{
+         margin: 10px;
+     }
   }
 
 
@@ -99,7 +105,6 @@ p{
     .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,
     .col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
         float: left;   
-        text-align: center;
     }
     .p3{
         margin-right: 8px;
@@ -141,6 +146,3 @@ p{
         width: 100%;
     }
   }
-
-
- 
