@@ -1,0 +1,31 @@
+
+body{
+    font-size: 16px;
+    color: white;
+    background-color: #61122f;
+    font-family: 'Secular One', sans-serif;
+}
+/** header **/
+.navbar{
+    background-color: violet;
+}
+.navbar-brand{
+    margin-left: 150px;
+    font: 56px;
+    color: yellow;
+}
+#navbarSupportedContent{
+    margin-left: 46%;
+    font-size: large;
+}
+ .nav-link{
+    color: yellow;
+}
+@media screen and (max-width: 767px){
+    #navbarSupportedContent{
+        margin-left: 0px;
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
+}
